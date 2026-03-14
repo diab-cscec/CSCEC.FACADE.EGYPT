@@ -1,25 +1,208 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>موقعي</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Facade Engineering Company</title>
+
 <style>
+
 body{
-font-family: Arial;
+font-family: Arial, Helvetica, sans-serif;
+margin:0;
+background:#f4f6f9;
+color:#333;
+}
+
+header{
+background:#0f172a;
+color:white;
+padding:25px;
 text-align:center;
-background:#f4f4f4;
-margin-top:100px;
 }
-h1{
-color:#2c3e50;
+
+nav{
+background:#1e293b;
+padding:10px;
+text-align:center;
 }
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.hero{
+background:#334155;
+color:white;
+padding:80px;
+text-align:center;
+}
+
+.hero h1{
+font-size:42px;
+margin-bottom:10px;
+}
+
+.section{
+padding:60px 15%;
+}
+
+.section h2{
+text-align:center;
+margin-bottom:30px;
+color:#0f172a;
+}
+
+.services{
+display:flex;
+gap:25px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.card{
+background:white;
+padding:25px;
+width:260px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+border-radius:6px;
+text-align:center;
+}
+
+.projects{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.project{
+background:#e2e8f0;
+padding:20px;
+width:250px;
+border-radius:6px;
+}
+
+.contact{
+background:#0f172a;
+color:white;
+text-align:center;
+padding:60px;
+}
+
+footer{
+background:#020617;
+color:#aaa;
+text-align:center;
+padding:15px;
+}
+
+button{
+background:#38bdf8;
+border:none;
+padding:12px 22px;
+font-size:16px;
+border-radius:5px;
+cursor:pointer;
+}
+
 </style>
 </head>
 
 <body>
 
-<h1>مرحبا بكم في موقعي</h1>
-<p>هذه أول صفحة ويب قمت بإنشائها.</p>
+<header>
+<h1>China International Facade Engineering</h1>
+<p>Specialists in Aluminum & Curtain Wall Systems</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Systems</a>
+<a href="#">Projects</a>
+<a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+<h1>Professional Facade Engineering Solutions</h1>
+<p>Design, Manufacturing and Installation of Modern Building Facades</p>
+<br>
+<button>Contact Us</button>
+</section>
+
+<section class="section">
+
+<h2>Our Systems</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>Unitized Curtain Wall</h3>
+<p>Factory assembled panels installed quickly on site with superior quality control.</p>
+</div>
+
+<div class="card">
+<h3>Stick Curtain Wall</h3>
+<p>Flexible system assembled on site suitable for many architectural designs.</p>
+</div>
+
+<div class="card">
+<h3>Doors & Windows</h3>
+<p>High performance aluminum systems with thermal and acoustic insulation.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2>Selected Projects</h2>
+
+<div class="projects">
+
+<div class="project">
+<h3>Commercial Tower</h3>
+<p>Unitized curtain wall facade system.</p>
+</div>
+
+<div class="project">
+<h3>Residential Complex</h3>
+<p>Aluminum windows and glass facade.</p>
+</div>
+
+<div class="project">
+<h3>Business Center</h3>
+<p>Modern architectural facade design.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="contact">
+
+<h2>Contact Us</h2>
+
+<p>Fattah Diab</p>
+<p>Marketing Engineer</p>
+<p>Email: fattah_diab@chinaconstruction.com</p>
+
+<br>
+
+<button>Send Inquiry</button>
+
+</section>
+
+<footer>
+
+© 2026 Facade Engineering Company
+
+</footer>
 
 </body>
 </html>
