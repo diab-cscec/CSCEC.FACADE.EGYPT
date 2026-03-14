@@ -16,3 +16,43 @@ _site/
 # counterproductive to check this file into the repository.
 # Details at https://github.com/github/pages-gem/issues/768
 Gemfile.lock
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>شركة واجهات</title>
+
+<style>
+body{
+font-family:Arial;
+background:#0f172a;
+color:white;
+text-align:center;
+padding:80px;
+}
+
+h1{
+font-size:40px;
+}
+
+button{
+background:#38bdf8;
+border:none;
+padding:12px 25px;
+font-size:18px;
+border-radius:6px;
+cursor:pointer;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>شركة الواجهات الهندسية</h1>
+<p>متخصصون في تصميم وتنفيذ واجهات الألمنيوم والستائر الزجاجية</p>
+
+<button>تواصل معنا</button>
+
+</body>
+</html>
